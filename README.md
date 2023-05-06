@@ -40,6 +40,13 @@ CRUD műveletek megvalósítása            -       CommentService, CommentAsync
 
 Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozni belőle, nyílván nem áll rendelkezésemre a világ összes ideje de ettől függetlenül szerettem volna egy nyomokban igényes applikációt létrehozni.
 
+| Elem | Pontszám | Megvalósítás |
+| -------- | -------- | -------- |
+| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
+| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
+| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+
+
 ## Usage
 
 | Column 1 | Column 2 | Column 3 |
