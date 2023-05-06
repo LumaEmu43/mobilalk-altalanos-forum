@@ -1,24 +1,44 @@
-# Project Title
+# Általános fórum alkalmazás
 
-This is a project to build a personal blog website.
+Fórum alkalmazás, mobilalkalmazás fejelsztés kötelező program.
 
-## Table of Contents
+## Rövid leírás
 
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+A repóban elhelyeztem az APK-t, illetve ha minden igaz akkor coospacen is mellékelve lett. Az alábbiakban mellékelek egy rövid javítási útmutatót/segédletet.
 
-## Project Description
+## Javítási segédlet
 
-The personal blog website is built using HTML, CSS, and JavaScript. The website has a homepage, about page, blog page, and contact page. The homepage has a navigation bar, a hero image, and a call-to-action button. The about page has information about the author, and the blog page has a list of blog posts. The contact page has a form for users to submit their information and a message.
+Fordítási hiba nincs                    -       Mivel létre tudtam hozni az APK fájlt és fut is az alkalmazás ezért nincs fordítási hiba.
 
-## Installation
+Futtatási hiba                          -       Nem tapasztaltam ilyet.
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2. Navigate to the project directory: `cd your-repository`
-3. Open the index.html file in your web browser.
+Firebase autentikáció                   -       Megvalósul a regisztráció/bejelentkezés során.
+
+Adatmodell definiálása                  -       A User és Comment classban van megvalósítva az adatmodell.
+
+Legalább 3 Activity használata          -       MainActivity, LoginActivity, RegisterActivity, FeedActivity, ProfileActivity.
+
+Beviteli mezők helyes típusa            -       Megvalósul, látható a login és register oldalakon.
+
+ConstraintLayout és egy másik layout    -       Pl.: app/src/main/res/layout/activity_feed.xml ConstraintLayout és LinearLayout is használva van.
+
+Reszponzív felület                      -       Igyekeztem megvalósítani a lehető legjobban, megfigyeléseim szerint igényes a megvalósítás.
+
+Legalább 2 animáció                     -       Nem foglalkoztam ezzel.
+
+Intentek használata                     -       Minden Activity között elérhető a navigáció intentek segítségével, pl.: hírfolyam <--> profil.
+
+Egy Lifecycle Hook használata           -       Pl.: FeedActivity legalján onResume és onStop használata, újratölti/frissíti a bejegyzéseket.
+
+Notification/alarm/job scheduler        -       Nem foglalkoztam vele.
+
+Android permission                      -       Manifestsben internet jogosultság kérése.
+
+CRUD műveletek megvalósítása            -       CommentService, CommentAsyncTask, UserService, UserServiceAsyncTask. Megvalósultak mindegyikben a CRUD műveletek, illetve az aszinkron verziójuk is implementálásra került, esetenként használva is vannak.
+
+2 komplex firestore lekérdezés          -       Csak egy darab van (2 pont) a CommentService alján a getAllCommentsOrderedByTime().
+
+Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozni belőle, nyílván nem áll rendelkezésemre a világ összes ideje de ettől függetlenül szerettem volna egy nyomokban igényes applikációt létrehozni.
 
 ## Usage
 
