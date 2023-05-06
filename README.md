@@ -5,11 +5,12 @@ Fórum alkalmazás, mobilalkalmazás fejelsztés kötelező program.
 ## Rövid leírás
 
 A repóban elhelyeztem az APK-t, illetve ha minden igaz akkor coospacen is mellékelve lett. Az alábbiakban mellékelek egy rövid javítási útmutatót/segédletet.
+**FONTOS! Az alkalmazást linux alatt fejlesztettem Android Studioban, így lehetséges, hogy a kód futtatása más környezetek alatt körülményes lehet, de elvileg nem kellene problémát okoznia. Mivel az alkalmazás APK fájlban rendelkezésre áll, ezért a fordítás és a futtatás tekinthető teljesítettnek**
 
-## Használati útmutató
+## Tesztelési útmutató
 
-1. Az APK fájl telepítése vagy hadrwarre vagy emulátorra
-2. Alkalmazás megnyitása
+1. Az APK fájl telepítése vagy hadrwarre vagy emulátorra. Emulátor megnyitása android studioban, app-debug.apk fájlt drag and droppolni a képernyőre.
+2. Megnyitni a Nagyon Gyakori Kérdések alkalmazást.
 3. Regisztráció
 4. Bejegyzés írása stb...
 
