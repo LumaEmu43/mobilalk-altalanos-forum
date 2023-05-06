@@ -51,6 +51,9 @@ Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozn
 | ConstraintLayout és egy másik layout |  | Pl.: app/src/main/res/layout/activity_feed.xml ConstraintLayout és LinearLayout is használva van. |
 | Reszponzív felület |  | Igyekeztem megvalósítani a lehető legjobban, megfigyeléseim szerint igényes a megvalósítás. |
 | Legalább 2 animáció |  | Nem foglalkoztam ezzel. |
+| Intentek használata |  | Minden Activity között elérhető a navigáció intentek segítségével, pl.: hírfolyam <--> profil. |
+| Egy Lifecycle Hook használata |  | Pl.: FeedActivity legalján onResume és onStop használata, újratölti/frissíti a bejegyzéseket. |
+| Notification/alarm/job scheduler |  | Nem foglalkoztam vele. |
 | Android permission |  | Manifestsben internet jogosultság kérése. |
 | CRUD műveletek megvalósítása |  | CommentService, CommentAsyncTask, UserService, UserServiceAsyncTask. Megvalósultak mindegyikben a CRUD műveletek, illetve az aszinkron verziójuk is implementálásra került, esetenként használva is vannak. |
 | 2 komplex firestore lekérdezés |  | Csak egy darab van (2 pont) a CommentService alján a getAllCommentsOrderedByTime(). |
