@@ -42,9 +42,20 @@ Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozn
 
 | Elem | Pontszám | Megvalósítás |
 | -------- | -------- | -------- |
-| Fordítási hiba nincs  | Row 1, Cell 2 | Mivel létre tudtam hozni az APK fájlt és fut is az alkalmazás ezért nincs fordítási hiba. |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
-| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+| Fordítási hiba nincs  | 1 pont | Mivel létre tudtam hozni az APK fájlt és fut is az alkalmazás ezért nincs fordítási hiba. |
+| Futtatási hiba | 1 pont | Nem tapasztaltam ilyet. |
+| Firebase autentikáció | 4 pont | Megvalósul a regisztráció/bejelentkezés során. |
+| Adatmodell definiálása | 2 pont | A User és Comment classban van megvalósítva az adatmodell. |
+| Legalább 3 Activity használata |  | MainActivity, LoginActivity, RegisterActivity, FeedActivity, ProfileActivity. |
+| Beviteli mezők helyes típusa |  | Megvalósul, látható a login és register oldalakon. |
+| ConstraintLayout és egy másik layout |  | Pl.: app/src/main/res/layout/activity_feed.xml ConstraintLayout és LinearLayout is használva van. |
+| Reszponzív felület |  | Igyekeztem megvalósítani a lehető legjobban, megfigyeléseim szerint igényes a megvalósítás. |
+| Legalább 2 animáció |  | Nem foglalkoztam ezzel. |
+| Android permission |  | Manifestsben internet jogosultság kérése. |
+| CRUD műveletek megvalósítása |  | CommentService, CommentAsyncTask, UserService, UserServiceAsyncTask. Megvalósultak mindegyikben a CRUD műveletek, illetve az aszinkron verziójuk is implementálásra került, esetenként használva is vannak. |
+| 2 komplex firestore lekérdezés |  | Csak egy darab van (2 pont) a CommentService alján a getAllCommentsOrderedByTime(). |
+| Szubjektív pontozás |  | Igyekeztem a legtöbbet kihozni belőle, nyílván nem áll rendelkezésemre a világ összes ideje de ettől függetlenül szerettem volna egy nyomokban igényes applikációt létrehozni. |
+
 
 
 ## Usage
