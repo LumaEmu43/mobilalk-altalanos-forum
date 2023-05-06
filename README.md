@@ -39,3 +39,5 @@ A repóban elhelyeztem az APK-t, illetve ha minden igaz akkor coospacen is mell�
 | 2 komplex firestore lekérdezés | 2 pont | Csak egy darab van (2 pont) a CommentService alján a getAllCommentsOrderedByTime(). |
 | Szubjektív pontozás | ? | Igyekeztem a legtöbbet kihozni belőle, nyílván nem áll rendelkezésemre a világ összes ideje de ettől függetlenül szerettem volna egy nyomokban igényes applikációt létrehozni. |
 
+Ha valami nem okés vagy kell valami segítség a kiértékelést illetően akkor itt tudsz elérni discordon: Dr. Drip#4994
+
