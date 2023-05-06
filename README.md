@@ -42,7 +42,7 @@ Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozn
 
 | Elem | Pontszám | Megvalósítás |
 | -------- | -------- | -------- |
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
+| Fordítási hiba nincs  | Row 1, Cell 2 | Mivel létre tudtam hozni az APK fájlt és fut is az alkalmazás ezért nincs fordítási hiba. |
 | Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
 | Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
 
