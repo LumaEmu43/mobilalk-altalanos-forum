@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Teszt</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password_again">Jelszó újra</string>
+    <string name="cancel">Mégsem</string>
+</resources>
