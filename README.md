@@ -42,6 +42,13 @@ Szubjektív pontozás                     -       Igyekeztem a legtöbbet kihozn
 
 ## Usage
 
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
+| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
+| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+
+
 1. Navigate to the homepage.
 2. Use the navigation bar to access other pages on the website.
 3. Read blog posts on the blog page.
