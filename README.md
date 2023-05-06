@@ -15,7 +15,7 @@ A repóban elhelyeztem az APK-t, illetve ha minden igaz akkor coospacen is mell�
 
 ## Javítási segédlet
 
-**This text is bold and _red_**
+**FIGYELEM! Ez a segédlet csak egy útmutatás, a valóságtól eltérhet!**
 
 
 
